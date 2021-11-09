@@ -1,1 +1,1 @@
-My lab 4 solution is [here](https://github.com/AlekseiBalabko/news-lab)
+My lab 5 solution is [here](My lab 4 solution is [here](https://github.com/AlekseiBalabko/react-news-lab))
