@@ -1,0 +1,258 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #373C3F;
+}
+
+.topnav h1 {
+    font-weight: normal;
+    display: none;
+    font-size: 4vw;
+}
+
+.nav-buttons {
+    display: flex;
+    list-style-type: none;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-start: 0;
+    margin: 0;
+}
+
+.nav-buttons li {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-buttons li a {
+    text-decoration: none;
+    display: flex;
+    padding: 4vw 2vw;
+    color: white;
+    font-size: 1.8vw;
+    transition: font-size 0.5s;
+}
+
+.nav-buttons ul li:first-child a {
+    padding-left: 6vw;
+}
+
+.nav-buttons li a:hover {
+    font-size: 3vw;
+    box-shadow: inset 0 -1vw 0 0 cyan;
+    background-color: #202529;
+}
+
+.menu-button {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    display: none;
+    width: 10vw;
+    height: 10vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: white;
+    background-color: #202529;
+    transition: background-color 0.3s;
+}
+.menu-button:hover {
+    background-color: #5B0FA1;
+}
+
+.banner {
+    text-decoration: none;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 16%;
+    padding-left: 7%;
+    padding-bottom: 12%;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom right, #19B4C6, #078AA4);
+}
+
+.banner-content h1 {
+    font-size: 7vw;
+    font-weight: normal;
+}
+
+.banner-content h2 {
+    font-size: 4vw;
+    font-weight: normal;
+    margin-top: 5%;
+    color: #9AD2DD;
+}
+
+.link-text i {
+    padding-left: 32vw;
+    font-size: 4.5vw;
+    color: white;
+}
+
+.link-box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    background-color: #27212C;
+}
+
+.link-box-text {
+    flex-direction: column;
+    justify-content: center;
+    padding: 9% 0%;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #81728D;
+}
+
+.arrow-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    cursor: pointer;
+    font-size: 7vw;
+    text-decoration: none;
+    color: white;
+    background-color: #BC3183;
+}
+
+.media {
+    display: table;
+    width: 100%;
+}
+
+.media .item {
+    display: table-cell;
+    width: calc(100% /3);
+}
+
+.media .item_arrow {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 7vw;
+    text-decoration: none;
+    color: white;
+    background-color: #5b0fa1;
+
+}
+
+.media .item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    flex-direction: column;
+    padding: 3vw 7vw;
+    background-color: #EBEBEB;
+    color: #7B7B7B;
+}
+
+article h1 {
+    -webkit-margin-after: 0;
+    font-size: 4vw;
+    color: #088CA5;
+}
+
+.content {
+    display: flex;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+.content > *:not(:last-child){
+    margin-right: 2rem;
+}
+
+.content p{
+    padding-bottom: 1rem;
+}
+
+.content_strong > p {
+    font-weight: 500;
+}
+
+.content span:first-child {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 640px) {
+    .media{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .media .item {
+        display: block;
+        flex: 1;
+        width: 100%;
+        position: relative;
+    }
+
+    .media .item_arrow{
+        padding-top: 30vw;
+        padding-bottom: 30vw;
+    } 
+    
+    .media-link {
+        height: 81vw;
+    }
+
+    article h1 {
+        font-size: 5vw;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content > *:not(:last-child){
+        margin-right: 0;
+    }
+
+    .content span:first-child {
+        margin-right: unset;
+    }
+
+    .topnav {
+        padding-left: 7%;
+        height: 10vw;
+        background-color: #373C3F;
+        color: #FFFFFF;
+    }
+
+    .topnav .nav-buttons {
+        display: none;
+    }
+
+    .topnav h1 {
+        display: inline;
+    }
+
+    .nav-buttons ul li:first-child a {
+        padding-left: 2vw;
+    }
+
+    .menu-button {
+        display: flex;
+    }
+}
