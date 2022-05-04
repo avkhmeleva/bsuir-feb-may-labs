@@ -1,0 +1,286 @@
+*, :after, :before {
+    box-sizing: border-box;
+    -webkit-appearance: none
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Montserrat, sans-serif
+}
+
+.nav {
+    background: #3b3e41
+}
+
+.navElems {
+    display: flex
+}
+
+.navTitle {
+    flex-grow: 1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500
+}
+
+.navBrugerBack {
+    background: #202529;
+    padding: 9px 11px
+}
+
+.navBurger {
+    width: 15px;
+    height: 10px
+}
+
+.navItems {
+    display: none
+}
+
+.navButton {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #e7e6e6;
+    padding: 39px 14px
+}
+
+.navHome {
+    color: white;
+}
+
+.header {
+    padding: 57px 55px 50px 25px;
+    background: #0ca3b9 linear-gradient(120deg, #19b4c6, #078aa4);
+    color: white;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600
+}
+
+.titleSecond {
+    color: #FFFFFF7F;
+    font-size: 10px
+}
+
+.container1 {
+    display: flex;
+    background: #27212c
+}
+
+.container1Text {
+    flex-grow: 1;
+    color: #9282a0;
+    padding: 31px 25px;
+    font-size: 10px
+}
+
+.headerArrow {
+    float: right;
+    width: 6px;
+    height: 10px
+}
+
+.container1Area {
+    background: #a23480;
+    padding: 28px 30px
+}
+
+.containerArrowIcon {
+    width: 9px;
+    height: 14px
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch
+}
+
+.bridge, .arrow, .imageWoman {
+    position: relative
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5b0fa1;
+    height: 86.87vw
+}
+
+.slideImage {
+    width: 100%;
+    vertical-align: middle
+}
+
+.footer {
+    background: #ebebeb;
+    padding: 35px
+}
+
+.footerTitle {
+    font-weight: 600;
+    font-size: 19px;
+    color: #4f8ba2
+}
+
+.footerTexts {
+    font-size: 9pt;
+    line-height: 1.58;
+    color: #515151
+}
+
+.footerTexts2 {
+    display: none
+}
+
+@media (min-width: 640px) {
+    .navTitle {
+        font-size: 24px;
+        padding: 22px 37px
+    }
+    .navBrugerBack {
+        padding: 24px 21px
+    }
+    .navBurger {
+        width: 31px;
+        height: 20px
+    }
+    .header {
+        padding: 95px 125px 92px 52px
+    }
+    .title {
+        font-size: 39px;
+        margin-bottom: 40px
+    }
+    .titleSecond {
+        font-size: 22px
+    }
+    .headerArrow {
+        width: 9pt;
+        height: 20px
+    }
+    .container1Text {
+        padding: 63px 55px;
+        font-size: 20px
+    }
+    .container1Area {
+        padding: 60px 67px 59px
+    }
+    .containerArrowIcon {
+        width: 1pc;
+        height: 27px
+    }
+    .bigArrowIcon {
+        width: 35px;
+        height: 57px
+    }
+    .footer {
+        padding: 75px
+    }
+    .footerTitle {
+        font-size: 30px
+    }
+    .footerTexts {
+        font-size: 22px
+    }
+}
+
+@media (min-width: 980px) {
+    .navTitle {
+        display: none
+    }
+    .navBrugerBack {
+        display: none
+    }
+    .navItems {
+        display: flex;
+        padding: 0 39px
+    }
+    .header {
+        padding: 153px 190px 149px 5pc
+    }
+    .title {
+        font-size: 60px;
+        margin-bottom: 60px
+    }
+    .titleSecond {
+        font-size: 34px
+    }
+    .headerArrow {
+        width: 15px;
+        height: 25px
+    }
+    .container1Text {
+        padding: 99px 84px 6pc;
+        font-size: 30px
+    }
+    .container1Area {
+        padding: 97px 105px 6pc
+    }
+    .containerArrowIcon {
+        width: 22px;
+        height: 35px
+    }
+    .images {
+        flex-direction: row;
+        align-content: normal
+    }
+    .bridge, .arrow, .imageWoman {
+        flex: 1 1 0
+    }
+    .arrow {
+        height: auto
+    }
+    .bigArrowIcon {
+        width: 20px;
+        height: 31px
+    }
+    .footerTexts {
+        font-size: 14px;
+        line-height: 1.8571;
+        -moz-column-count: 2;
+        column-count: 2;
+        grid-column-gap: 70px;
+        -moz-column-gap: 70px;
+        column-gap: 70px
+    }
+    .footerTexts2 {
+        display: block
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding: 163px 200px 158px 86px
+    }
+    .title {
+        font-size: 62px;
+        margin-bottom: 62px
+    }
+    .titleSecond {
+        font-size: 35px
+    }
+    .headerArrow {
+        width: 19px;
+        height: 28px
+    }
+    .container1Text {
+        padding: 103px 88px;
+        font-size: 31px
+    }
+    .container1Area {
+        padding: 75pt 110px 101px
+    }
+    .containerArrowIcon {
+        width: 24px;
+        height: 39px
+    }
+}
