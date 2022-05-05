@@ -1,1 +1,1 @@
-My lab 4 solution is [here](https://github.com/ZarenOFF/news-api)
+My lab 3 solution is [here](https://github.com/ZarenOFF/js-assignments)
