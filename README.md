@@ -1,1 +1,1 @@
-https://github.com/sten4eg/ipr2-1
+https://github.com/sten4eg/ipr2-2
