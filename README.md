@@ -1,1 +1,1 @@
-My lab 3 solution is [here](https://github.com/AlekseiBalabko/js-assignments)
+ИПР 1 задание 2
