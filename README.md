@@ -17,3 +17,4 @@
 * [Creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 * [Creating a pull request from a fork](https://github.com/avkhmeleva/bsuir-feb-may-labs)
 * [My lab solution is here](https://github.com/Vitali-Kazhaneuski/IPR_1_2)
+* [My IPR 2 Task 1 solution is here](https://github.com/Vitali-Kazhaneuski/IPR_2_1)
