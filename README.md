@@ -1,1 +1,1 @@
-My lab 3 solution is https://www.github.com/your-account-name/js-assignments
+My lab 3 solution is  https://github.com/Grigoriy-Pelykh/js-assignments
