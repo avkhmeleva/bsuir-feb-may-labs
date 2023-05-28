@@ -1,3 +1,5 @@
+my lab 3 solution is[here](https://github.com/ananastya-k/js-assignments-rpi)
+
 # BSUIR Labs
 
 ### Fork this repository
